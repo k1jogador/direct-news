@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/search/content.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="principal">
+      <header>
+        <a href="">Sobre</a>
+        <a id="logo" href="../index.html">DIRECT NEWS</a>
+        <a href="">Conta</a>
+      </header>
+      <main>
+        <form id="formPesquisar">
+          <input
+            type="text"
+            id="inputPesquisar"
+            placeholder="Escreva aqui"
+          /><button type="submit" id="btnPadrao" id="btnPesquisar">
+            Pesquisar
+          </button>
+        </form>
+        <div id="containerNoticias"></div>
+        <div id="containerErro">
+          <p>Nenhuma notícia foi encontrada!</p>
+          <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzdyZm9mY2xlZnNuYWg4aHQzcWFza21ybGZ5bmhnN3BpNzd6aDA2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/StDkRr83yvAxG/giphy.webp" alt="">
+        </div>
+      </main>
+    </div>
+
+    <script src="./scripts/search.js"></script>
+  </body>
+</html>
